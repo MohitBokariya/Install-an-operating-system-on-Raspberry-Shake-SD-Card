@@ -4,6 +4,7 @@ This guide helps you install the Raspberry Shake operating system onto a microSD
 Download the latest raspishake-release.zip file from the official Raspberry Shake GitLab:
 
 🔗 Download raspishake-release.zip - https://gitlab.com/raspberryShake-public/raspshake-sd-img/-/blob/main/raspishake-release.zip?ref_type=heads
+
 💾 Step 2: Prepare Your SD Card
 
 Insert your microSD card into your computer.
