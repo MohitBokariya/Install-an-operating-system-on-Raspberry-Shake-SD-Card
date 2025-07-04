@@ -8,9 +8,7 @@ Download the latest raspishake-release.zip file from the official Raspberry Shak
 
 Insert your microSD card into your computer.
 
-You can format it manually using a tool (like GParted, GNOME Disks, or your OS’s default formatter), and make sure the file system is set to FAT32.
-
-Alternatively, you can use the provided Bash script, which automates formatting and flashing the image.
+Use the provided Bash script, which automates formatting (to FAT32) and flashing the image.
 
     ⚠️ Important: You must update the script to reflect the correct SD card device (e.g., /dev/sde). You can find this using the lsblk command.
 
@@ -24,8 +22,8 @@ Alternatively, you can use the provided Bash script, which automates formatting 
 
     Make the script executable and run it:
 
-chmod +x prepare_rshake.sh
-./prepare_rshake.sh
+chmod +x Install_Raspberry_Shake_OS.sh
+./Install_Raspberry_Shake_OS.sh
 
 The script will:
 
